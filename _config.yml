@@ -1,6 +1,7 @@
 # Site settings
 title: Site Title
-
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://boshysbooks.co.uk"
 # Build settings
 markdown: kramdown
 permalink: pretty
