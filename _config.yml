@@ -5,3 +5,7 @@ url: "http://boshysbooks.co.uk"
 # Build settings
 markdown: kramdown
 permalink: pretty
+# Scripts
+google_analytics: "UA-110049472-1"
+# Localization strings
+str_follow_on: "Follow on"
