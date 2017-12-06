@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning - My buggest coding challenges so far"
+title:  "Learning - My biggest coding challenges so far"
 date:   2017-11-12
 categories: coding
 ---
