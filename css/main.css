@@ -24,7 +24,7 @@ body
 	font-size: 1em;
 	line-height: 1.35;
 	font-family:  "Space Mono", serif;
-	margin: 3em;;
+	margin: 2em;;
   	-webkit-font-smoothing: antialiased;
   	text-rendering: optimizeLegibility;
 	text-transform: lowercase;
@@ -50,7 +50,7 @@ div.highlighter-rouge
 .container
 {
 	max-width: 960px;
-        min-width: 339px;
+        min-width: 220px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0;
@@ -91,7 +91,6 @@ div.highlighter-rouge
 /*
  * Typography
  */
-
 p
 {
 	font-family: monospace;
@@ -136,7 +135,7 @@ blockquote
 {
 	font-family: "Space Mono", serif;
 	border-left: none;
-	font-size: .9rem;
+	font-size: .8rem;
 	line-height: 1.35;
 	padding-left: .75rem;
 	padding-right: .75rem;
@@ -151,6 +150,13 @@ hr {
 code
 {
 	font-size: .8em;
+}
+@media (min-width: 48em)
+{
+	blockquote
+	{
+		font-size: .9em;
+	}
 }
 /*
  * Navigation
@@ -203,8 +209,14 @@ code
 }
 .nav ul li
 {
-	margin-left: 20px;
+	margin-left: 13px;
 	display: inline-block;
+}
+@media (min-width:48em)
+{
+	.nav ul li {
+		margin-left: 20px;
+	}
 }
 /*
  * Main
